@@ -1,0 +1,88 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    border-left: 2px solid #34B3A0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #34B3A0;
+    padding-left: 20px;
+}
+
+
+.main{
+    margin-top: 20px;
+    min-width: 450px;
+}
+
+form input {
+    background: #f0f0f0;
+    border: none;
+    border-left: 2px solid #fff;
+    font-size: 18px;
+    padding: 14px; /*box size determine*/
+    width: 100%;
+    transition: background 2s, border-left 2s;
+}
+
+form input:focus {
+    background: #fff;
+    border-left: 2px solid #000;
+    box-shadow: none;
+    outline: none;
+    color: #34B3A0;
+    
+}
+
+button.btn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #34B3A0;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px;
+    transition: background 2s,color 1s;
+}
+
+button.btn:hover{
+    background: #34B3A0;
+    color: #fff;
+}
+
+.comments{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+        
+li{
+    padding-left: 20px;
+    border-left:2px solid #000;
+    font-size: 16px;
+    margin: 0 0 36px;
+}
+
+
+a{
+    color: #34B3A0;
+}
+a.edit{
+    float:right;
+    color:  #34b3a0;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.delete{
+    float:right;
+    color:#A94442;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.copy{
+    float:right;
+    color:#428BCA;
+    cursor: pointer;
+    text-decoration: none;
+}
